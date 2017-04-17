@@ -22,7 +22,7 @@ peat following step when you create new applications
 ## Setting Up Your React Dev Environment manually.
 
 1. Install Global Packages
-	````	
+	````
 	C:\path>npm install -g babel
 	C:\path>npm install -g babel-cli
 	````
@@ -33,9 +33,13 @@ peat following step when you create new applications
 	```
 
 3. Add Dependencies and plugins
+	 For all your node touching needs.
+	```
+	C:\path>npm install touch
+	```
  	 webpack bundler
 	```
-	 C:\path\1-basic-react>npm install webpack --save
+	C:\path\1-basic-react>npm install webpack --save
 	```
 	webpack dev server
 	
@@ -57,7 +61,7 @@ peat following step when you create new applications
 	 C:\path\1-basic-react>npm install babel-preset-es2015
 	 
 	 ````
-	 Or All together you use following command with space as a separator
+	 Or All together you can use following command with space as a separator
 	 
 	 ```
 	 C:\path\1-basic-react>npm install --save-dev react react-dom webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react 
