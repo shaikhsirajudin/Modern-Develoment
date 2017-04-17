@@ -9,7 +9,7 @@
 1. Navigate to some folder */1-basic-react*
 2. *Install create-react-app
  	> npm install -g create-react-app
-3. *Once installation complete repeat this step whenever you have create application
+3. *Once the installation complete repeat following step when you create new applications
   	> create-react-app my-app
         
 	> cd my-app
