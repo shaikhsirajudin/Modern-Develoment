@@ -113,9 +113,11 @@ Add the following in package.json in place of test
 	```
  	"start": "webpack-dev-server --hot"
  	```
-	
-	
-	
+6. Run the application 
+
+	```
+	C:\path\1-basic-react>npm start
+	```
 	
 	
 	
