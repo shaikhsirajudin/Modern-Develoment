@@ -27,12 +27,14 @@ peat following step when you create new applications
 	C:\path>npm install -g babel-cli
 	````
 2. Create Root Folder */1-basic-react*
+
 	Follow the instruction	
 	```
 	 C:\path\1-basic-react>npm init
 	```
 
 3. Add Dependencies and plugins
+
 	For all your node touching needs. 
 	```
 	C:\path>npm install touch
