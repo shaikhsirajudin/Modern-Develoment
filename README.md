@@ -78,17 +78,18 @@ peat following step when you create new applications
  
  webpack.config.js
 ```
+var path = require('path');
 var config = {
    entry: './main.js',
 	
    output: {
-      path:'./',
+      path:path.resolve(__dirname, './'),
       filename: 'index.js',
    },
 	
    devServer: {
       inline: true,
-      port: 8080
+      port: 8181
    },
 	
    module: {
@@ -96,7 +97,7 @@ var config = {
          {
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            loader: 'babel',
+            loader: 'babel-loader',
 				
             query: {
                presets: ['es2015', 'react']
@@ -105,6 +106,7 @@ var config = {
       ]
    }
 }
+
 module.exports = config;
 ```
 	
