@@ -35,11 +35,7 @@ peat following step when you create new applications
 
 3. Add Dependencies and plugins
 
-	For all your node touching needs. 
-	```
-	C:\path>npm install touch
-	```
- 	 webpack bundler
+	 webpack bundler
 	```
 	C:\path\1-basic-react>npm install webpack --save
 	```
