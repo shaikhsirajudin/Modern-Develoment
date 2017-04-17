@@ -10,7 +10,7 @@
 2. *Install create-react-app
  	> npm install -g create-react-app
 3. *Once installation complete repeat this step whenever you have create application
-  > create-react-app my-app
+  	> create-react-app my-app
 	> cd my-app
 	> npm start
 
