@@ -1,5 +1,5 @@
-** Software requires for this is Install software NodeJS and NPM [NodeJS Environment Setup](https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm)
-
+##Required software NodeJS and NPM [NodeJS Environment Setup](https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm)
+==================================================================
 ## Instructions to create react package from scratch
 1. Navigate to folder */1-basic-react*
 2. *npm install*
@@ -19,13 +19,10 @@
 	> npm start
 
 ## Setting Up Your React Dev Environment manually.
-1. Install software NodeJS and NPM
-1. Navigate to some folder */1-basic-react*
+1. Navigate to some folder from command prompt */1-basic-react*
+2. Install the babel globally
+	````
+	>C:\path>npm install -g babel
 
-
-
-
-
-
-
+	````
 
