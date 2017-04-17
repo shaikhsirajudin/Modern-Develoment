@@ -65,7 +65,18 @@ peat following step when you create new applications
 	 C:\path\1-basic-react>npm install --save-dev react react-dom webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react 
 	 
 	 ```
-						
+4. Create some files
+	```
+	C:\path\1-basic-react>type nul > index.html
+	C:\path\1-basic-react>type nul >App.jsx
+	C:\path\1-basic-react>type nul >main.js
+	C:\path\1-basic-react>type nul >webpack.config.js
+	```
+	
+	
+5. Edit the  webpack.config.js and add following contents
+ 
+ 
 	
 	
 	
