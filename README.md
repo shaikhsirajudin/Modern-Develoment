@@ -21,8 +21,6 @@
 ## Setting Up Your React Dev Environment manually.
 1. Navigate to some folder from command prompt */1-basic-react*
 2. Install the babel globally
-	````
-	>C:\path>npm install -g babel
-
+	````	>C:\path>npm install -g babel
 	````
 
