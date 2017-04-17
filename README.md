@@ -109,6 +109,12 @@ var config = {
 
 module.exports = config;
 ```
+Add the following in package.json in place of test
+	```
+ 	"start": "webpack-dev-server --hot"
+ 	```
+	
+	
 	
 	
 	
