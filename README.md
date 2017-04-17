@@ -33,7 +33,7 @@ peat following step when you create new applications
 	```
 
 3. Add Dependencies and plugins
-	 For all your node touching needs.
+	For all your node touching needs. 
 	```
 	C:\path>npm install touch
 	```
