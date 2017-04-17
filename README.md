@@ -28,34 +28,42 @@ peat following step when you create new applications
 	````
 2. Create Root Folder */1-basic-react*
 	Follow the instruction
+	
 	```
 	 C:\path\1-basic-react>npm init
 	 ```
 
 3. Add Dependencies and plugins
  	 webpack bundler
+	 
   	```
 	 C:\path\1-basic-react>npm install webpack --save
 	```
 	webpack dev server
+	
 	```
 	C:\path\1-basic-react>npm install webpack-dev-server --save
 	```
 	Since we want to use React
+	
 	 ```
 	 C:\path\1-basic-react>npm install react --save
 	 C:\path\1-basic-react>npm install react-dom --save
 	 ````
 	 Add some babel plugins
+	 
 	 ```
 	 C:\path\1-basic-react>npm install babel-core
 	 C:\path\1-basic-react>npm install babel-loader
 	 C:\path\1-basic-react>npm install babel-preset-react
 	 C:\path\1-basic-react>npm install babel-preset-es2015
+	 
 	 ````
 	 Or All together you use following command with space as a separator
+	 
 	 ```
 	 C:\path\1-basic-react>npm install --save-dev react react-dom webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 babel-preset-react 
+	 
 	 ```
 						
 	
