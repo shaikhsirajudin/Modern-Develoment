@@ -34,8 +34,7 @@ peat following step when you create new applications
 
 3. Add Dependencies and plugins
  	 webpack bundler
-	 
-  	```
+	```
 	 C:\path\1-basic-react>npm install webpack --save
 	```
 	webpack dev server
