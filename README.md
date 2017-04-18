@@ -127,6 +127,7 @@ Add the following in package.json in place of test
 	. redux-logger
 	
 	=> Redux Thunk middleware allows you to write action creators that return a function instead of an action
+	
 	. redux-thunk
 	
 	=> Ajax call for restful API
