@@ -121,13 +121,20 @@ Add the following in package.json in place of test
 	C:\path\1-basic-react>npm start
 	```
 7. Some of Redux middleware components commonly used.
-	=> for getting formatted layout for logging.
+
+	=> Formatted layout for logging.
+	
 	. redux-logger
-	=>
+	
+	=> Redux Thunk middleware allows you to write action creators that return a function instead of an action
 	. redux-thunk
+	
 	=> Ajax call for restful API
+	
 	. axios
-	=>This provide default dispatch implementation for restful api
+	
+	=>Default dispatch implementation for restful api
+	
 	. redux-promise-middleware
 	
 	syntanx for applying
