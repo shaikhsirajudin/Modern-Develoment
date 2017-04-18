@@ -120,7 +120,7 @@ Add the following in package.json in place of test
 	```
 	C:\path\1-basic-react>npm start
 	```
-7. Some of Redux middleware components commonly used.
+7. Commonly used Redux middleware components.
 
 	=> Formatted layout for logging.
 	
