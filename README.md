@@ -120,7 +120,24 @@ Add the following in package.json in place of test
 	```
 	C:\path\1-basic-react>npm start
 	```
+7. Some of Redux middleware components commonly used.
+	=> for getting formatted layout for logging.
+	. redux-logger
+	=>
+	. redux-thunk
+	=> Ajax call for restful API
+	. axios
+	=>This provide default dispatch implementation for restful api
+	. redux-promise-middleware
 	
+	syntanx for applying
+	```
+	//const middleware = applyMiddleware(thunk, createLogger())
+	const middleware = applyMiddleware(promise(),thunk, logger)
+	// take out the constant.
+	const store = createStore(reducer, middleware);
+	```
+
 	
 	
 	
